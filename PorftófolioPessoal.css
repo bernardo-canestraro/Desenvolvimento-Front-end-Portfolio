@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body {
+    background-color: #3c3c47;
+    color: white;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+
+.retangulo-fundo {
+    background-color: #6c6c6c;
+    border-radius: 20px;
+    max-width: 1050px;
+    width: 100%;
+    box-shadow: 0 0 20px #ffffffa1;
+    margin: 0 auto;
+}
+
+#principal {
+    display: flex;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.apresentacao__texto {
+    flex: 1;
+    min-width: 300px;
+}
+
+.texto-destaque {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    line-height: 1.6;
+    display: inline-flex;
+}
+.imagem {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    height: auto;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+strong {
+    color: #000000; 
+    padding: 4px;
+}
+.texto-destaque span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.texto-destaque strong {
+    display: inline-block;
+    margin-top: 10px;
+}
+.texto-destaque {
+    text-align: center;
+}
+.apresentacao__texto p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+span {
+    color: #ffffff; 
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    color: white;
+    border: none;
+}
+
+.linkedin {
+    background-color: #004d98;
+}
+
+.github {
+    background-color: #080808;
+}
+
+.btn:hover, .btn:focus {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+ul {
+    columns: 2;
+    grid-auto-flow: column;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 14px;
+    padding: 4px 6px;
+}
